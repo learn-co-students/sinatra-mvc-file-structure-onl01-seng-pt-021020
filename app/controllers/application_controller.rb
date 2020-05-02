@@ -1,6 +1,6 @@
 class ApplicationController < Sinatra::Base
 
-  configure do
+  configure do #tells the controller where to look to find the views 
   	set :views, "app/views"
   	set :public_dir, "public"
   end
